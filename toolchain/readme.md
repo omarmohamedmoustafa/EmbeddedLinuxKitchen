@@ -11,7 +11,7 @@ git clone https://github.com/crosstool-ng/crosstool-ng
 ### 2. Checkout to Tag `1.26.0` "Latest Version"
 Switch to the specified version tag:
 ```bash
-git checkout 1.26.0
+git checkout crosstool-ng-1.26.0
 ```
 **What this does**: Ensures you are working with the stable version `1.26.0` of Crosstool-NG.
 
@@ -57,7 +57,7 @@ Display the list of pre-configured samples:
 ### 2. Select a Sample
 Choose a sample for your desired architecture:
 ```bash
-./ct-ng <architecture>
+./ct-ng arm-cortexa9_neon-linux-gnueabihf
 ```
 **What this does**: Selects the toolchain configuration for the specified architecture.
 
