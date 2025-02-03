@@ -23,21 +23,19 @@ The project is structured into multiple phases, each focusing on a critical comp
 - **Status**: Completed
 - **Description**: Built a cross-compilation toolchain using crosstool-NG for ARM architecture. This toolchain is critical for compiling applications and system components for the target hardware.
 
-### 🚧 Kernel
+### ✅ Bootloader
+- **Status**: Under Construction
+- **Description**: Work is underway to select and configure a bootloader (e.g., U-Boot) that will initialize the hardware and load the kernel.
+
+### ✅ Kernel
 - **Status**: Under Construction
 - **Description**: The Linux kernel is being configured and compiled to support the target ARM architecture.
 
-### 🚧 Bootloader
-- **Status**: Under Construction
-- **Description**: Work is underway to select and configure a bootloader (e.g., U-Boot) that will initialize the hardware and load the kernel.
 
 ### 🚧 Root Filesystem
 - **Status**: Under Construction
 - **Description**: The root filesystem will include essential binaries, libraries, and configuration files to run the system.
 
-### 🚧 Testing and Integration
-- **Status**: Planned
-- **Description**: The final step involves integrating all components and testing the complete system using QEMU or actual hardware.
 
 ---
 
